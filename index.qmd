@@ -122,42 +122,14 @@ La distribución de frecuencias permite determinar cuántas observaciones corres
 
 Una tabla de frecuencias puede contener las siguientes columnas:
 
-```{=html}
-<style>
-.tabla-frecuencias {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.tabla-frecuencias th {
-  background-color: #FFB6C1;
-  color: #000000;
-  padding: 8px;
-  text-align: center;
-}
-
-.tabla-frecuencias td {
-  background-color: #FFF0F3;
-  color: #000000;
-  padding: 8px;
-  text-align: center;
-}
-
-.tabla-frecuencias th,
-.tabla-frecuencias td {
-  border: 1px solid #D3D3D3;
-}
-</style>
-```
-
 | Símbolo | Nombre | Interpretación |
-|----|----|----|
-| *x~i~* | Valor o categoría | Valor observado de la variable |
-| *f~i~* | Frecuencia absoluta | Número de veces que aparece *x~i~* |
-| *F~i~* | Frecuencia absoluta acumulada | Número de observaciones hasta *x~i~* |
-| *h~i~* | Frecuencia relativa | Proporción de observaciones correspondiente a *x~i~* |
-| *H~i~* | Frecuencia relativa acumulada | Proporción acumulada hasta *x~i~* |
-| \% | Porcentaje | Frecuencia relativa expresada en porcentaje |
+|:-------------:|--------------------|-------------------------------------|
+| $x_i$ | Valor o categoría | Valor observado de la variable |
+| $f_i$ | Frecuencia absoluta | Número de veces que aparece $x_i$ |
+| $F_i$ | Frecuencia absoluta acumulada | Número de observaciones hasta $x_i$ |
+| $h_i$ | Frecuencia relativa | Proporción de observaciones correspondiente a $x_i$ |
+| $H_i$ | Frecuencia relativa acumulada | Proporción acumulada hasta $x_i$ |
+| $%$ | Porcentaje | Frecuencia relativa expresada en porcentaje |
 
 **Frecuencia absoluta**
 
@@ -582,11 +554,11 @@ Supongamos que se estudian:
 
 La tabla puede tener la siguiente estructura:
 
-| Modalidad      | Alta            | Media           | Baja            | Total       |
-|----------------|-----------------|-----------------|-----------------|-------------|
-| **Presencial** | \$n\_{11}\$     | \$n\_{12}\$     | \$n\_{13}\$     | \$n\_{1.}\$ |
-| **Virtual**    | \$n\_{21}\$     | \$n\_{22}\$     | \$n\_{23}\$     | \$n\_{2.}\$ |
-| **Total**      | **\$n\_{.1}\$** | **\$n\_{.2}\$** | **\$n\_{.3}\$** | **\$n\$**   |
+| Modalidad  |     Alta |    Media |     Baja |    Total |
+|------------|---------:|---------:|---------:|---------:|
+| Presencial | $n_{11}$ | $n_{12}$ | $n_{13}$ | $n_{1.}$ |
+| Virtual    | $n_{21}$ | $n_{22}$ | $n_{23}$ | $n_{2.}$ |
+| **Total**  | $n_{.1}$ | $n_{.2}$ | $n_{.3}$ |      $n$ |
 
 Los valores $n_{ij}$ representan las **frecuencias conjuntas**.
 
@@ -985,16 +957,16 @@ $$\alpha=0.05$$
 # .Diferencia entre distribución unidimensional y bidimensional
 
 | Característica | Unidimensional | Bidimensional |
-|----|----|----|
-| **Número de variables** | 1 | 2 |
-| **Objetivo** | Describir una variable | Analizar dos variables conjuntamente |
-| **Tabla principal** | Tabla de frecuencias | Tabla de contingencia |
-| **Frecuencia** | \$f_i\$ | \$n\_{ij}\$ |
-| **Frecuencia marginal** | No aplica | Sí |
-| **Frecuencia conjunta** | No aplica | Sí |
-| **Frecuencia condicional** | No aplica | Sí |
-| **Asociación** | No | Sí |
-| **Chi-cuadrado** | No necesariamente | Sí, para variables categóricas |
+|--------------------|--------------------|--------------------------------|
+| Número de variables | 1 | 2 |
+| Objetivo | Describir una variable | Analizar dos variables conjuntamente |
+| Tabla principal | Tabla de frecuencias | Tabla de contingencia |
+| Frecuencia | $f_i$ | $n_{ij}$ |
+| Frecuencia marginal | No aplica | Sí |
+| Frecuencia conjunta | No aplica | Sí |
+| Frecuencia condicional | No aplica | Sí |
+| Asociación | No | Sí |
+| Chi-cuadrado | No necesariamente | Sí, para variables categóricas |
 
 # .Aplicación y herramientas de RStudio
 

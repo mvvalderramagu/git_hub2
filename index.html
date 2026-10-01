@@ -267,72 +267,47 @@ code {
 <section id="elementos-de-una-distribución-de-frecuencias" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="elementos-de-una-distribución-de-frecuencias"><span class="header-section-number">3.2</span> Elementos de una distribución de frecuencias</h2>
 <p>Una tabla de frecuencias puede contener las siguientes columnas:</p>
-<style>
-.tabla-frecuencias {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.tabla-frecuencias th {
-  background-color: #FFB6C1;
-  color: #000000;
-  padding: 8px;
-  text-align: center;
-}
-
-.tabla-frecuencias td {
-  background-color: #FFF0F3;
-  color: #000000;
-  padding: 8px;
-  text-align: center;
-}
-
-.tabla-frecuencias th,
-.tabla-frecuencias td {
-  border: 1px solid #D3D3D3;
-}
-</style>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 20%">
+<col style="width: 27%">
+<col style="width: 51%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Símbolo</th>
+<th style="text-align: center;">Símbolo</th>
 <th>Nombre</th>
 <th>Interpretación</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><em>x<sub>i</sub></em></td>
+<td style="text-align: center;"><span class="math inline">x_i</span></td>
 <td>Valor o categoría</td>
 <td>Valor observado de la variable</td>
 </tr>
 <tr class="even">
-<td><em>f<sub>i</sub></em></td>
+<td style="text-align: center;"><span class="math inline">f_i</span></td>
 <td>Frecuencia absoluta</td>
-<td>Número de veces que aparece <em>x<sub>i</sub></em></td>
+<td>Número de veces que aparece <span class="math inline">x_i</span></td>
 </tr>
 <tr class="odd">
-<td><em>F<sub>i</sub></em></td>
+<td style="text-align: center;"><span class="math inline">F_i</span></td>
 <td>Frecuencia absoluta acumulada</td>
-<td>Número de observaciones hasta <em>x<sub>i</sub></em></td>
+<td>Número de observaciones hasta <span class="math inline">x_i</span></td>
 </tr>
 <tr class="even">
-<td><em>h<sub>i</sub></em></td>
+<td style="text-align: center;"><span class="math inline">h_i</span></td>
 <td>Frecuencia relativa</td>
-<td>Proporción de observaciones correspondiente a <em>x<sub>i</sub></em></td>
+<td>Proporción de observaciones correspondiente a <span class="math inline">x_i</span></td>
 </tr>
 <tr class="odd">
-<td><em>H<sub>i</sub></em></td>
+<td style="text-align: center;"><span class="math inline">H_i</span></td>
 <td>Frecuencia relativa acumulada</td>
-<td>Proporción acumulada hasta <em>x<sub>i</sub></em></td>
+<td>Proporción acumulada hasta <span class="math inline">x_i</span></td>
 </tr>
 <tr class="even">
-<td>%</td>
+<td style="text-align: center;"><span class="math inline">%</span></td>
 <td>Porcentaje</td>
 <td>Frecuencia relativa expresada en porcentaje</td>
 </tr>
@@ -815,43 +790,36 @@ code {
 </ul>
 <p>La tabla puede tener la siguiente estructura:</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 21%">
-<col style="width: 21%">
-<col style="width: 21%">
-<col style="width: 16%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Modalidad</th>
-<th>Alta</th>
-<th>Media</th>
-<th>Baja</th>
-<th>Total</th>
+<th style="text-align: right;">Alta</th>
+<th style="text-align: right;">Media</th>
+<th style="text-align: right;">Baja</th>
+<th style="text-align: right;">Total</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Presencial</strong></td>
-<td>$n_{11}$</td>
-<td>$n_{12}$</td>
-<td>$n_{13}$</td>
-<td>$n_{1.}$</td>
+<td>Presencial</td>
+<td style="text-align: right;"><span class="math inline">n_{11}</span></td>
+<td style="text-align: right;"><span class="math inline">n_{12}</span></td>
+<td style="text-align: right;"><span class="math inline">n_{13}</span></td>
+<td style="text-align: right;"><span class="math inline">n_{1.}</span></td>
 </tr>
 <tr class="even">
-<td><strong>Virtual</strong></td>
-<td>$n_{21}$</td>
-<td>$n_{22}$</td>
-<td>$n_{23}$</td>
-<td>$n_{2.}$</td>
+<td>Virtual</td>
+<td style="text-align: right;"><span class="math inline">n_{21}</span></td>
+<td style="text-align: right;"><span class="math inline">n_{22}</span></td>
+<td style="text-align: right;"><span class="math inline">n_{23}</span></td>
+<td style="text-align: right;"><span class="math inline">n_{2.}</span></td>
 </tr>
 <tr class="odd">
 <td><strong>Total</strong></td>
-<td><strong>$n_{.1}$</strong></td>
-<td><strong>$n_{.2}$</strong></td>
-<td><strong>$n_{.3}$</strong></td>
-<td><strong>$n$</strong></td>
+<td style="text-align: right;"><span class="math inline">n_{.1}</span></td>
+<td style="text-align: right;"><span class="math inline">n_{.2}</span></td>
+<td style="text-align: right;"><span class="math inline">n_{.3}</span></td>
+<td style="text-align: right;"><span class="math inline">n</span></td>
 </tr>
 </tbody>
 </table>
@@ -1320,9 +1288,9 @@ X-squared = 4.381, df = 2, p-value = 0.1119</code></pre>
 <h1 data-number="6"><span class="header-section-number">6</span> .Diferencia entre distribución unidimensional y bidimensional</h1>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 27%">
+<col style="width: 27%">
+<col style="width: 44%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1333,47 +1301,47 @@ X-squared = 4.381, df = 2, p-value = 0.1119</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Número de variables</strong></td>
+<td>Número de variables</td>
 <td>1</td>
 <td>2</td>
 </tr>
 <tr class="even">
-<td><strong>Objetivo</strong></td>
+<td>Objetivo</td>
 <td>Describir una variable</td>
 <td>Analizar dos variables conjuntamente</td>
 </tr>
 <tr class="odd">
-<td><strong>Tabla principal</strong></td>
+<td>Tabla principal</td>
 <td>Tabla de frecuencias</td>
 <td>Tabla de contingencia</td>
 </tr>
 <tr class="even">
-<td><strong>Frecuencia</strong></td>
-<td>$f_i$</td>
-<td>$n_{ij}$</td>
+<td>Frecuencia</td>
+<td><span class="math inline">f_i</span></td>
+<td><span class="math inline">n_{ij}</span></td>
 </tr>
 <tr class="odd">
-<td><strong>Frecuencia marginal</strong></td>
+<td>Frecuencia marginal</td>
 <td>No aplica</td>
 <td>Sí</td>
 </tr>
 <tr class="even">
-<td><strong>Frecuencia conjunta</strong></td>
+<td>Frecuencia conjunta</td>
 <td>No aplica</td>
 <td>Sí</td>
 </tr>
 <tr class="odd">
-<td><strong>Frecuencia condicional</strong></td>
+<td>Frecuencia condicional</td>
 <td>No aplica</td>
 <td>Sí</td>
 </tr>
 <tr class="even">
-<td><strong>Asociación</strong></td>
+<td>Asociación</td>
 <td>No</td>
 <td>Sí</td>
 </tr>
 <tr class="odd">
-<td><strong>Chi-cuadrado</strong></td>
+<td>Chi-cuadrado</td>
 <td>No necesariamente</td>
 <td>Sí, para variables categóricas</td>
 </tr>
